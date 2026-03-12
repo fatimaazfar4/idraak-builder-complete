@@ -9,10 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.1.33",
     "expo": "~55.0.6",
+    "expo-av": "^16.0.8",
+    "expo-font": "~55.0.4",
+    "expo-media-library": "~55.0.9",
+    "expo-notifications": "~55.0.12",
+    "expo-router": "~55.0.5",
+    "expo-sharing": "~55.0.11",
     "expo-status-bar": "~55.0.4",
+    "firebase": "^12.10.0",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-paper": "^5.15.0",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "^0.21.0"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@testing-library/react-native": "^13.3.3",
+    "jest": "^30.3.0"
+  }
 }
